@@ -19,4 +19,4 @@ print("{name} loves to go fishing in {place}.")
 print("{name} needed a haircut but {noun} doesnt have clippers.")
 print("{name} thinks {adj} is a synonyms to {adj2}.")
 
-print("{noun} is not {adj} for the body but {verb} is.")
+print("{noun} is not {adj} for the body but {verb} is good.")
