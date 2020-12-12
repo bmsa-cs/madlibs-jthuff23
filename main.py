@@ -1,22 +1,26 @@
 print("lets play silly sentences!")
-MadLibs
-Author: Jared Huff
-Period/Core:5
-input()Enter a name: Mark
-adj = input()Enter a adjective:good
-adj2 = input()Enter a adjective:nice
-food = input()Enter a food:tacos
-food2 = input()Enter a food:pizza 
-noun = input()Enter a noun:Mcdonalds
-place = input()Enter a place:Atlanta
-verb = input()Enter a verb:running
+#MadLibs
+#Author: Jared Huff
+#Period/Core:5
+name = input("Enter a name: ")
+adj = input("Enter a adjective:")
+adj2 = input("Enter a adjective:")
+food = input("Enter a food:")
+food2 = input("Enter a food:")
+noun = input("Enter a noun:")
+place = input("Enter a place:")
+verb = input("Enter a verb:")
 #part two of process
-print("{name} wanted to visit his family in {place}.")
-print("{name} wanted some {food2} through {noun}.")
+print(name + " loves to go fishing in " + place)
 
-print("{name} loves to go fishing in {place}.")
+print(name + " needed a haircut but " + noun + " doesnt have clippers.")
 
-print("{name} needed a haircut but {noun} doesnt have clippers.")
-print("{name} thinks {adj} is a synonyms to {adj2}.")
+print("\n" + name + " has a long list of sights to see, includng the ")
 
-print("{noun} is not {adj} for the body but {verb} is good.")
+
+print(name + " was especially looking forward to trying the local" +" " + food)
+
+
+print(name + " thinks " + " is a synonyms to " + adj2)
+
+print(noun + " museum and the " + adj2 + " park.")
